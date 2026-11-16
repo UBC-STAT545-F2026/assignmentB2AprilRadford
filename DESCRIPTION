@@ -2,7 +2,7 @@ Package: assignmentB2AprilRadford
 Title: Count Missing Values for All Columns by Group
 Version: 0.1.0
 Authors@R: 
-    person("April", "Radford", , "april.c.radford@gmail.com", role = c("aut", "cre"))
+    person("April", "Radford", email = "april.c.radford@gmail.com", role = c("aut", "cre"))
 Description: Counts the missing values in every column of a data frame,
     separately for each level of a grouping column.
 License: MIT + file LICENSE
