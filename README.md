@@ -3,7 +3,6 @@ assignmentB2AprilRadford
 This repository is for completion of assignment B2 in STAT545 at UBC. `assignmentB2AprilRadford` counts the missing values (`NA`s) in every column of a data frame, separately for each level of a grouping column. It returns one row per group, so you can quickly see where the missing data is concentrated.
 The repository includes the following files and folders:
 
-* README.Rmd
 * README.md
 * DESCRIPTION
 * NAMESPACE
