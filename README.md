@@ -51,3 +51,11 @@ To explore this repository, install the package using the instructions
 above, then run `?count_all_missing_by_group` to view the function’s
 documentation. Alternatively, you can view the function’s source code in
 the `R/` folder.
+
+## AI Disclosure
+
+I used Claude while completing this assignment in the following ways:
+
+- Correctly formatting the `DESCRIPTION` file
+- Interpreting `devtools::check()` output and troubleshooting a git
+  merge conflict
