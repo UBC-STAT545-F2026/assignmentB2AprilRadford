@@ -10,6 +10,10 @@ Description: Counts the missing values in every column of a data frame,
     per group so that it is easy to see where missing data is
     concentrated.
 License: MIT + file LICENSE
+Depends: 
+    R (>= 4.1.0)
+Imports: 
+    dplyr
 Config/roxygen2/version: 8.1.1
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
