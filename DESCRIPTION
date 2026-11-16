@@ -1,10 +1,16 @@
 Package: assignmentB2AprilRadford
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Count Missing Values for All Columns by Group
+Version: 0.1.0
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+    person("April", "Radford", , "april.c.radford@gmail.com", role = c("aut", "cre"))
+Description: Counts the missing values in every column of a data frame,
+    separately for each level of a grouping column.
 License: MIT + file LICENSE
+Depends: 
+    R (>= 4.1.0)
+Imports: 
+    dplyr
 Config/roxygen2/version: 8.1.1
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
+Config/testthat/edition: 3
