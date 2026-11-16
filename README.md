@@ -1,0 +1,31 @@
+assignmentB2AprilRadford
+
+This repository is for completion of assignment B2 in STAT545 at UBC. `assignmentB2AprilRadford` counts the missing values (`NA`s) in every column of a data frame, separately for each level of a grouping column. It returns one row per group, so you can quickly see where the missing data is concentrated.
+The repository includes the following files and folders:
+
+* README.md
+* DESCRIPTION
+* NAMESPACE
+* R/ (the function and its roxygen2 documentation)
+* man/ (the generated documentation files)
+* tests/ (tests for the function)
+
+## Installation
+
+To install the package, run the following in R:
+```r
+library(devtools)
+install_github("aprilrad/assignmentB2AprilRadford", ref = "0.1.0")
+```
+
+## Usage
+
+Load the package, then give `count_all_missing_by_group()` your data and the column to group by:
+
+```{r}
+library(mypackage)
+
+count_all_missing_by_group(airquality, Month)
+```
+
+To explore this repository, install the package using the instructions above, then run `?count_all_missing_by_group` to view the function's documentation. Alternatively, you can view the function's source code in the `R/` folder.
